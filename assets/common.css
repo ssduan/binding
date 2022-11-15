@@ -1,6 +1,6 @@
 :root {
     --base: 14px;
-    --heading: calc(var(--base) * 2);
+    --heading: calc(var(--base) * 1.5);
 
     --type-color: #585442;
 
@@ -21,11 +21,14 @@ body {
     text-align: center;
     position: relative;
 
+
 }
 
 h1 {
     font-size: var(--heading);
-    color: #585442;
+    color: black;
+    text-align: left;
+    padding: 0.5em;
 }
 
 p {
@@ -42,7 +45,6 @@ a p {
 }
 
 hr { 
-
     margin-left: 0;
     margin-right: 0;
     border-style: inset;
@@ -64,9 +66,10 @@ footer {
     background-color: #F5F5F5;
     padding-top: 1em;
     padding-bottom: 1em;
+    margin:0;
 }
 
 h2 {
     font-size: calc(var(--base) * 2.5);
-padding: 0.5em;
+    padding: 0.5em;
 }
