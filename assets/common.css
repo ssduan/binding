@@ -1,5 +1,5 @@
 :root {
-    --base: 16px;
+    --base: 14px;
     --heading: calc(var(--base) * 2);
 
     --type-color: #585442;
@@ -10,7 +10,7 @@
 
 @media (min-width: 600px) {
     :root {
-        --base: 20px;
+        --base: 16px;
     }
 }
 
@@ -21,17 +21,16 @@ body {
     text-align: center;
     position: relative;
 
-
-
 }
 
 h1 {
     font-size: var(--heading);
+    color: #585442;
 }
 
 p {
     color: var(--type-color);
-    max-width: 50ch;
+    max-width: 60ch;
     margin: auto;
 
 
@@ -39,13 +38,35 @@ p {
 
 a p {
     color: blue;
+
 }
 
 hr { 
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+
     margin-left: 0;
     margin-right: 0;
     border-style: inset;
     border-width: 1px;
   } 
+
+nav {
+    font-size: var(--heading);
+
+}
+
+.intro {
+    background-color: #FBFFE0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+footer {
+    background-color: #F5F5F5;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+h2 {
+    font-size: calc(var(--base) * 2.5);
+padding: 0.5em;
+}
