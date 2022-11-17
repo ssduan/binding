@@ -10,6 +10,9 @@
     :root {
         --base: 16px;
     }
+
+
+
 }
 
 body {
@@ -18,14 +21,37 @@ body {
 
 h1 {
     font-size: var(--heading);
-    color: black;
-    text-align: left;
-    padding: 0.5em;
+color: white;
+margin: 0;
+padding:0;
+letter-spacing: -1.5;
+margin-bottom:0.25em;
+max-width: 1000px;
+
 }
 
+
+
+h3 {
+    font-size: calc(var(--base) *1.5);
+    max-width: 600px;
+    padding-bottom:0.5em;
+
+
+}
 
 nav {
     font-size: calc(var(--base) *1.5);
 padding:0;
 margin: 0;
+}
+
+header {
+    background-color: #92877F;
+    color: white;
+    padding: 1.5em;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+
+
 }
