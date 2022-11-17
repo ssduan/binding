@@ -11,6 +11,7 @@
         --base: 16px;
     }
 
+
     main {
         display: grid;
         grid-template-columns: 3fr 2fr;
@@ -25,15 +26,24 @@
     ul {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        
     }
     
     li:nth-child(1), li:nth-child(2)  {
         border-right: solid #585442 1px;
+        align-items: center;
+
     }
 
+    h2 {
+            padding: 1em;
+    }
+    
+    body {
+        display: grid;
+        grid-template-rows: 1fr 6fr auto;
 
-
-
+    }
 
 }
 
@@ -42,7 +52,10 @@
     aside {
         border-top: solid #585442 1px;
     }
-    
+    h2 {
+        padding: 0.5em;
+}
+
 }
 
 
@@ -97,7 +110,7 @@ footer {
 
 h2 {
     font-size: calc(var(--base) * 2.5);
-    padding: 0.5em;
+    
 }
 
 li:nth-child(1):hover {
