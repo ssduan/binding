@@ -68,3 +68,19 @@ h2 {
     font-size: calc(var(--base) * 2.5);
     padding: 0.5em;
 }
+
+li:nth-child(1):hover {
+    background-color: #92877F;
+    color: white;
+}
+
+li:nth-child(2):hover {
+    background-color: #4F58AA;
+    color: white;
+}
+
+
+li:nth-child(3):hover {
+    background-color: #D48D77;
+    color: white;
+}
