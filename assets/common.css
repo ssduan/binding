@@ -10,6 +10,7 @@
     :root {
         --base: 16px;
     }
+
 }
 
 body {
@@ -18,7 +19,6 @@ body {
     padding: 0;
     text-align: center;
     position: relative;
-
 
 }
 
@@ -31,10 +31,6 @@ h1 {
 
 p {
     color: var(--type-color);
-    max-width: 60ch;
-    margin: auto;
-
-
 }
 
 
@@ -53,8 +49,10 @@ ul {
 
 .intro {
     background-color: #FBFFE0;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding: 2em;
+    text-align: left;
+
+
 }
 
 footer {
@@ -83,4 +81,22 @@ li:nth-child(2):hover {
 li:nth-child(3):hover {
     background-color: #D48D77;
     color: white;
+}
+
+aside {
+    background: white;
+    text-align: left;
+    border-left: solid #585442 1px;
+    padding: 2em;
+
+
+
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-areas: ".intro  aside"
+
 }
