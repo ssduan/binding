@@ -1,3 +1,55 @@
 :root {
+    --base: 14px;
     --heading: calc(var(--base) *5);
+    --type-color: #585442;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: var(--base);
+}
+
+@media (min-width: 600px) {
+    :root {
+        --base: 16px;
+    }
+
+
+
+}
+
+body {
+    text-align: left;
+}
+
+h1 {
+    font-size: var(--heading);
+color: #F3ECE2;
+margin: 0;
+padding:0;
+letter-spacing: -1.5;
+margin-bottom:0.25em;
+max-width: 1000px;
+
+}
+
+
+
+h3 {
+    font-size: calc(var(--base) *1.5);
+    max-width: 600px;
+    padding-bottom:0.5em;
+
+
+}
+
+nav {
+    font-size: calc(var(--base) *1.5);
+padding:0;
+margin: 0;
+}
+
+header {
+    background-color: #548AEA;
+    color: #F2F0EA;
+    padding: 1.5em;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
 }

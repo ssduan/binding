@@ -21,7 +21,7 @@ body {
 
 h1 {
     font-size: var(--heading);
-color: white;
+color: #F3ECE2;
 margin: 0;
 padding:0;
 letter-spacing: -1.5;
@@ -47,8 +47,8 @@ margin: 0;
 }
 
 header {
-    background-color: #92877F;
-    color: white;
+    background-color: #94877E;
+    color: #F3ECE2;
     padding: 1.5em;
     border-top: solid black 1px;
     border-bottom: solid black 1px;

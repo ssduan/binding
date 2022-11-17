@@ -70,13 +70,13 @@ h2 {
 }
 
 li:nth-child(1):hover {
-    background-color: #92877F;
-    color: white;
+    background-color: #94877E;
+    color: #F3ECE2;
 }
 
 li:nth-child(2):hover {
-    background-color: #4F58AA;
-    color: white;
+    background-color: #548AEA;
+    color: #F2F0EA;
 }
 
 
