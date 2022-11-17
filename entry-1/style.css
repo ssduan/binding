@@ -11,6 +11,12 @@
         --base: 16px;
     }
 
+    aside {
+        float: left;
+        margin-left:1.5em;
+        margin-right:0.5em;
+        width: 200px;
+    }
 
 
 }
@@ -52,6 +58,5 @@ header {
     padding: 1.5em;
     border-top: solid black 1px;
     border-bottom: solid black 1px;
-
-
+    margin-bottom: 2em;
 }
