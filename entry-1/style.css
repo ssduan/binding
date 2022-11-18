@@ -13,9 +13,10 @@
 
     aside {
         float: left;
-        margin-left:1.5em;
-        margin-right:0.5em;
         width: 200px;
+        margin:0;
+        border-right: solid #585442 1px;
+
     }
 
 
@@ -51,9 +52,8 @@ header {
     background-color: #94877E;
     color: #F3ECE2;
     padding: 1.5em;
-    border-top: solid black 1px;
-    border-bottom: solid black 1px;
-    margin-bottom: 2em;
+    border-top: solid #585442 1px;
+    border-bottom: solid #585442 1px;
 }
 
 
