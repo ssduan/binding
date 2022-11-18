@@ -13,10 +13,9 @@
 
     aside {
         float: left;
-        width: 200px;
         margin:0;
         border-right: solid #585442 1px;
-
+        margin-right: 3em;
     }
 
 
@@ -64,5 +63,23 @@ header {
 
 #navigation {
     float: left;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 280px auto;
+    grid-template-areas: "aside .essay"
+}
+
+.essay {
+padding: 3em;
+max-width: 800px;
+}
+
+.essay > p {
+    margin-bottom: 1.8em;
+    font-size: calc(var(--base) *1.2);
+    line-height: 1.5em;
+    letter-spacing: 0.4px;
 }
 
