@@ -16,7 +16,8 @@
         margin:0;
         padding:0;
         border-right: solid #585442 1px;
-        margin-right: 3em;      
+        margin-right: 3em; 
+        font-size: 14px;  
 
     }
 
@@ -27,19 +28,19 @@
 
     .left-sticky > p:nth-child(1) {
         border-bottom: solid #585442 1px;
-        padding: 1em;
+        padding: 1.5em;
         padding-left:2em;
     }
 
     .left-sticky > p:nth-child(2) {
         border-bottom: solid #585442 1px;
-        padding: 1em;
+        padding: 1.5em;
         padding-left:2em;
     }
 
     .left-sticky > p:nth-child(3) {
         border-bottom: solid #585442 1px;
-        padding: 1em;
+        padding: 1.5em;
         padding-left:2em;
     }
 }
