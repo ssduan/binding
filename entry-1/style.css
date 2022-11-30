@@ -89,9 +89,11 @@ header {
 
 
 .essay {
-padding-left: 5em;
-padding-top: 4em;
-max-width: 800px;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 4em;
+    max-width: 80%;
+    margin-bottom: 5em;
 }
 
 .essay > p {
