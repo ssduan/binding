@@ -13,12 +13,16 @@
 
     aside {
         float: left;
-        margin:0;
-        padding:0;
         border-right: solid #585442 1px;
         margin-right: 3em; 
         font-size: 14px;  
 
+    }
+
+    section {
+        display: grid;
+        grid-template-columns: 280px auto;
+        grid-template-areas: "aside .essay";
     }
 
    .left-sticky {
@@ -84,12 +88,6 @@ header {
 
 
 
-section {
-    display: grid;
-    grid-template-columns: 280px auto;
-    grid-template-areas: "aside .essay";
-}
-
 .essay {
 padding: 3em;
 max-width: 800px;
@@ -115,4 +113,37 @@ blockquote {
 padding-bottom: 1.5em;
 padding-top: 0.5em;
 
+}
+
+aside {
+    margin:0;
+    padding:0;
+
+}
+
+.left-sticky > p:nth-child(1) {
+    border-bottom: solid #585442 1px;
+    padding: 1.5em;
+}
+
+.left-sticky > p:nth-child(2) {
+    border-bottom: solid #585442 1px;
+    padding: 1.5em;
+}
+
+.left-sticky > p:nth-child(3) {
+
+    padding: 1.5em;
+}
+
+
+@media (max-width: 600px) {
+.left-sticky {
+    display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+aside {    
+    border-bottom: solid #585442 1px;
+
+}
 }
