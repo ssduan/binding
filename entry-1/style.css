@@ -36,7 +36,7 @@ h1 {
     margin: 0;
     padding:0;
     letter-spacing: -1.5;
-    margin-bottom:0.25em;
+    padding-bottom:0.5em;
     max-width: 1000px;
 
 }
@@ -45,20 +45,16 @@ h1 {
 
 h3 {
     font-size: calc(var(--base) *1.5);
-    max-width: 600px;
+    max-width: 650px;
     padding-bottom:0.5em;
-
-
 }
 
 
 header {
     background-color: #4F58AA;
     color: #F3ECE2;
-    padding: 1.5em;
-
+    padding: 2em;
     border-bottom: solid #585442 1px;
-
 }
 
 
