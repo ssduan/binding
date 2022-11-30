@@ -2,7 +2,7 @@
     --base: 14px;
     --heading: calc(var(--base) *1.5);
     --type-color: #585442;
-    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Kantumruy Pro', sans-serif;
     font-size: var(--base);
 }
 

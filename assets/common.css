@@ -2,7 +2,7 @@
     --base: 14px;
     --heading: calc(var(--base) * 1.5);
     --type-color: #585442;
-    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Kantumruy Pro', sans-serif;
     font-size: var(--base);
 }
 
@@ -35,7 +35,7 @@
     }
 
     h2 {
-            padding: 1em;
+            padding: 0.6em;
     }
     
     /* body {
@@ -64,7 +64,7 @@ body {
 
 h1 {
     font-size: var(--heading);
-    color: black;
+    color: #585442;
     text-align: left;
     padding: 0.5em;
 }
@@ -102,7 +102,8 @@ footer {
 }
 
 h2 {
-    font-size: calc(var(--base) * 2.5);
+    font-size: calc(var(--base) * 3);
+    color:#585442;
     
 }
 
