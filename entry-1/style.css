@@ -21,6 +21,7 @@
     .essay {
         padding-right: 5em;
         max-width: 85%;
+        min-width: 500px;
 }
 
 
