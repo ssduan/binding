@@ -89,7 +89,8 @@ header {
 
 
 .essay {
-padding: 3em;
+padding-left: 5em;
+padding-top: 4em;
 max-width: 800px;
 }
 
@@ -156,4 +157,5 @@ h1 {
 .essay {
     padding: 2em;
 
+}
 }
