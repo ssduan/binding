@@ -137,6 +137,23 @@ aside {
 }
 
 
+.icons > a:nth-child(2) {
+    opacity: 0.8;
+}
+
+.icons > a:nth-child(2):hover {
+    opacity: 1;
+}
+
+.icons > a:nth-child(3) {
+    opacity: 0.8;
+}
+
+.icons > a:nth-child(3):hover {
+    opacity: 1;
+}
+
+
 @media (max-width: 600px) {
 .left-sticky {
     display: grid;
@@ -159,3 +176,5 @@ h1 {
 
 }
 }
+
+
