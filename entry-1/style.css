@@ -137,6 +137,10 @@ aside {
 }
 
 
+.icons > a:nth-child(1) {
+    opacity: 1;
+}
+
 .icons > a:nth-child(2) {
     opacity: 0.8;
 }
