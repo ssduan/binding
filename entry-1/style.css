@@ -38,20 +38,16 @@
 
     .left-sticky > p:nth-child(1) {
         border-bottom: solid #585442 1px;
-        padding: 1.5em;
-        padding-left:2em;
+
     }
 
     .left-sticky > p:nth-child(2) {
         border-bottom: solid #585442 1px;
-        padding: 1.5em;
-        padding-left:2em;
     }
 
     .left-sticky > p:nth-child(3) {
         border-bottom: solid #585442 1px;
-        padding: 1.5em;
-        padding-left:2em;
+
     }
 }
 
@@ -65,24 +61,42 @@ h1 {
     margin: 0;
     padding:0;
     letter-spacing: -1.5;
-    padding-bottom:0.5em;
     max-width: 1000px;
+    line-height: 75px;
+
+}
+
+.title {
+    border-bottom: solid #585442 1px;
+    padding: 2em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    font-weight:500;
+    letter-spacing: -0.8px;
+}
+
+.quote {
+    background: white;
+   color: #585442;
+   padding: 2em;
+   padding-left: 2.5em;
+   padding-right: 2.5em;
+   letter-spacing: -0.8px;
+
+
 
 }
 
 
-
 h3 {
-    font-size: calc(var(--base) *1.5);
-    max-width: 650px;
-    padding-bottom:0.5em;
+    font-size: calc(var(--base) *2);
+    max-width: 900px;
 }
 
 
 header {
     background-color: #4F58AA;
     color: #F3ECE2;
-    padding: 2em;
     border-bottom: solid #585442 1px;
 }
 
@@ -90,6 +104,7 @@ header {
 #title {
     font-size: var(--heading);
     text-align: right;
+
 }
 
 
@@ -124,22 +139,28 @@ blockquote {
 aside {
     margin:0;
     padding:0;
-
 }
+
+
 
 .left-sticky > p:nth-child(1) {
     border-bottom: solid #585442 1px;
     padding: 1.5em;
+    padding-left: 3em;
+    padding-right: 3em;
 }
 
 .left-sticky > p:nth-child(2) {
     border-bottom: solid #585442 1px;
     padding: 1.5em;
+    padding-left: 3em;
+    padding-right: 3em;
 }
 
 .left-sticky > p:nth-child(3) {
-
     padding: 1.5em;
+    padding-left: 3em;
+    padding-right: 3em;
 }
 
 
@@ -183,7 +204,6 @@ h1 {
 
 .essay {
     padding: 2em;
-
 }
 }
 
