@@ -16,6 +16,7 @@
         margin:0;
         border-right: solid #585442 1px;
         margin-right: 3em;
+
     }
 
 
@@ -48,11 +49,12 @@ h3 {
 
 
 header {
-    background-color: #94877E;
+    background-color: #4F58AA;
     color: #F3ECE2;
     padding: 1.5em;
     border-top: solid #585442 1px;
     border-bottom: solid #585442 1px;
+
 }
 
 
@@ -61,14 +63,12 @@ header {
     text-align: right;
 }
 
-#navigation {
-    float: left;
-}
+
 
 section {
     display: grid;
     grid-template-columns: 280px auto;
-    grid-template-areas: "aside .essay"
+    grid-template-areas: "aside .essay";
 }
 
 .essay {

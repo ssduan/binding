@@ -132,10 +132,13 @@ aside {
 
 nav {
     border-bottom: solid #585442 1px;
+
 }
 
 main {
     border-bottom: solid #585442 1px;
+
+
 }
 
 
@@ -159,7 +162,6 @@ img {
 .icons {
     float:  left;
     margin-left:     0.5em;
-
 }
 
 
