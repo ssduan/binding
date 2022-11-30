@@ -15,10 +15,14 @@
         float: left;
         margin:0;
         border-right: solid #585442 1px;
-        margin-right: 3em;
+        margin-right: 3em;      
 
     }
 
+   .left-sticky {
+        position: sticky;
+        top:85px;
+    }
 
 }
 
@@ -83,3 +87,9 @@ max-width: 800px;
     letter-spacing: 0.4px;
 }
 
+
+nav {
+    position: sticky;
+  top: 0;
+  background-color:#EAEBEA;
+}
