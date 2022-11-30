@@ -102,7 +102,7 @@ max-width: 800px;
 
 
 nav {
-    position: sticky;
+position: sticky;
   top: 0;
   background-color:#EAEBEA;
 }
@@ -144,6 +144,12 @@ aside {
 }
 aside {    
     border-bottom: solid #585442 1px;
-
 }
+
+h1 {
+    font-size: calc(var(--heading) *2.5);
+}
+
+#title {
+    font-size: calc(var(--heading) *0.8);
 }
