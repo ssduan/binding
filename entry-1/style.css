@@ -18,6 +18,11 @@
         font-size: 14px;  
 
     }
+    .essay {
+        padding-right: 5em;
+        max-width: 85%;
+}
+
 
     section {
         display: grid;
@@ -90,9 +95,7 @@ header {
 
 .essay {
     padding-left: 5em;
-    padding-right: 5em;
     padding-top: 4em;
-    max-width: 80%;
     margin-bottom: 5em;
 }
 
