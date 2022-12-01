@@ -149,7 +149,7 @@ aside {
 }
 
 
-.icons > a:nth-child(2) {
+.icons > a:nth-child(3) {
     opacity: 1;
 }
 
@@ -161,11 +161,11 @@ aside {
     opacity: 1;
 }
 
-.icons > a:nth-child(3) {
+.icons > a:nth-child(2) {
     opacity: 0.8;
 }
 
-.icons > a:nth-child(3):hover {
+.icons > a:nth-child(2):hover {
     opacity: 1;
 }
 
