@@ -89,6 +89,8 @@ h3 {
 header {
     background-color: #ADAF41;
     color: #F3ECE2;
+    border-bottom: solid #585442 1px;
+
 }
 
 
@@ -198,6 +200,10 @@ img {
 
 nav {
     height: 46px;
+}
+
+header {
+    border:0;
 }
 }
 
