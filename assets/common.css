@@ -70,10 +70,11 @@ ul {
 }
 
 .intro > p {
-    max-width: 680px;
+    max-width: 620px;
     text-align: center;
    margin: auto;
    letter-spacing: -0.2px;
+   line-height: 120%;
 
 }
 
@@ -190,5 +191,6 @@ img {
         height: 47.5px; 
     }
 }
+
 
 

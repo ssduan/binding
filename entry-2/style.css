@@ -186,10 +186,19 @@ h1 {
 
 #title {
     font-size: calc(var(--heading) *0.8);
+    padding-top:12px;
 }
 
 .essay {
     padding: 2em;
+}
+
+img {
+    height: 46px;
+}
+
+nav {
+    height: 46px;
 }
 }
 
